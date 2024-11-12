@@ -81,8 +81,8 @@ Install [nimble](https://github.com/nim-lang/nimble). Then do:
 
 Get the source code:
 
-    $ git clone https://github.com/fenekku/moustachu.git
-    $ cd moustachu
+    $ git clone https://github.com/zendbit/nim_moustache.git
+    $ cd nim_moustache
     # make your changes ...
     # test
     $ nimble tests
