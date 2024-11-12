@@ -1,7 +1,7 @@
 import unittest
 import json
 
-import nim_moustache
+import nim_moustachu
 
 let objTemplate = "s={{string}},i={{int}},f={{float}}"
 
