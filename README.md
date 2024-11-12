@@ -1,7 +1,5 @@
 # Moustachu
 
-[![Build Status](https://circleci.com/gh/fenekku/moustachu/tree/master.png?style=shield&circle-token=d918d8055e112fb5661e85eba92691e39d1d4d12)](https://circleci.com/gh/fenekku/moustachu)
-
 Moustachu is a([N im](https://github.com/Araq/Nim))plementation of [Mustache](https://github.com/mustache/mustache) (get it?). Mustache is "logic-less templating".
 
 ## Usage
@@ -10,7 +8,7 @@ Moustachu is a([N im](https://github.com/Araq/Nim))plementation of [Mustache](ht
 
 ```nim
 
-import moustachu
+import nim_moustache
 
 
 var tmplate = """Hello {{name}}
@@ -35,7 +33,7 @@ For the formal description of the mustache format, please visit [mustache(5)](ht
 Not mentioned in the formal description (but mentioned in the spec code), the spec also supports using a dot `.` as an "implicit iterator" for arrays containing unnamed items. For example, a sequence of strings or integers would use an implicit iterator:
 
 ```nim
-import moustachu
+import nim_moustache
 
 var c : Context = newContext()
 c["zoo_name"] = "Anytown"
@@ -49,13 +47,6 @@ var tmplate = """Animals at the {{zoo_name}} Zoo:
 {{/animals}}"""
 
 echo render(tmplate, c)
-```
-
-**On the command line**
-
-```
-$ moustachu <context>.json <template>.moustache
-$ moustachu <context>.json <template>.moustache --file=<output>
 ```
 
 The first version will print to stdout and the second will generate a file.
