@@ -67,11 +67,8 @@ The recommended way to install moustachu is through [nimble](https://github.com/
 
 Install [nimble](https://github.com/nim-lang/nimble). Then do:
 
-    $ nimble install moustachu
+    $ nimble install https://github.com/zendbit/nim_moustache@#head
 
-This will install the latest tagged version of moustachu.
-
-The moustachu package includes the moustachu binary to use on the command line and the moustachu library to use in your code.
 
 ## Design
 
