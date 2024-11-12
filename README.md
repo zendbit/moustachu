@@ -8,7 +8,7 @@ Moustachu is a([N im](https://github.com/Araq/Nim))plementation of [Mustache](ht
 
 ```nim
 
-import nim_moustache
+import nim_moustachu
 
 
 var tmplate = """Hello {{name}}
@@ -33,7 +33,7 @@ For the formal description of the mustache format, please visit [mustache(5)](ht
 Not mentioned in the formal description (but mentioned in the spec code), the spec also supports using a dot `.` as an "implicit iterator" for arrays containing unnamed items. For example, a sequence of strings or integers would use an implicit iterator:
 
 ```nim
-import nim_moustache
+import nim_moustachu
 
 var c : Context = newContext()
 c["zoo_name"] = "Anytown"
@@ -67,7 +67,7 @@ The recommended way to install moustachu is through [nimble](https://github.com/
 
 Install [nimble](https://github.com/nim-lang/nimble). Then do:
 
-    $ nimble install https://github.com/zendbit/nim_moustache@#head
+    $ nimble install https://github.com/zendbit/nim_moustachu@#head
 
 
 ## Design
@@ -81,8 +81,8 @@ Install [nimble](https://github.com/nim-lang/nimble). Then do:
 
 Get the source code:
 
-    $ git clone https://github.com/zendbit/nim_moustache.git
-    $ cd nim_moustache
+    $ git clone https://github.com/zendbit/nim_moustachu.git
+    $ cd nim_moustachu
     # make your changes ...
     # test
     $ nimble tests
