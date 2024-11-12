@@ -1,6 +1,6 @@
 import unittest
 
-import moustachu
+import nim_moustache
 
 let tmplate = """{{#repos}}<b>{{.}}</b>{{/repos}}"""
 

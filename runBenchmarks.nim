@@ -5,7 +5,7 @@
 import json
 import times
 
-import moustachu
+import nim_moustache
 
 
 let templ = """

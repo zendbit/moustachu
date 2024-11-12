@@ -11,8 +11,8 @@ srcDir      = "src"
 requires "nim >= 0.19.0"
 
 # Tasks
-task tests, "Run the Moustachu tester":
+task tests, "Run the nim_moustache tester":
   exec "nim compile --run runTests"
 
-task benchmarks, "Run the Moustachu benchmarks":
+task benchmarks, "Run the nim_moustachu benchmarks":
   exec "nim compile --run runBenchmarks"

@@ -2,7 +2,7 @@ import os
 import json
 import strutils
 
-import moustachu
+import nim_moustache
 
 
 for kind, fn in walkDir("specs"):
