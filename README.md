@@ -1,4 +1,4 @@
-# Moustachu
+# Nim Moustache
 
 Moustachu is a([N im](https://github.com/Araq/Nim))plementation of [Mustache](https://github.com/mustache/mustache) (get it?). Mustache is "logic-less templating".
 
